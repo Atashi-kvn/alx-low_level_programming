@@ -3,7 +3,7 @@
 /**
  * main - is to print alphabet in lowercase,
  * followed by a new line
- * Returns: void or Always 0 when Successful
+ * Return: void or Always 0 when Successful
  */
 int main(void)
 {
