@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <string.h>
 /**
  * main - Prints a new line, to standard error.
  *
@@ -8,6 +8,7 @@
 
 int main(void)
 {
-	fprintf(stderr, "and that piece of art is useful\" - Dora Korper, 2015-10-19\n");
+ const char* message = "and that piece of art is useful\" - Dora Korper, 2015-10-19\n";
+ write(STDERR_FILENO, message, strlen(message));
 	return (1);
 }
