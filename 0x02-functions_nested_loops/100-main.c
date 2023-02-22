@@ -3,7 +3,7 @@
 
 	/**
 	 * main - check the code.
-	 *
+	 *Description: Calls the print_times_table function to print multiplication tables
 	 * Return: Always 0.
 	 */
 	int main(void)

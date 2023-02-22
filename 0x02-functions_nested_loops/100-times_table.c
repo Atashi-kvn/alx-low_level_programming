@@ -2,9 +2,12 @@
 
 
 	/**
-	 * print_times_table - prints the n times table, starting with 0
-	 * @n: number of the times table
-	 */
+ * print_times_table - Prints a multiplication table of size n
+ * @n: The size of the multiplication table
+ *
+ * Description: This function prints a multiplication table of size n to the console.
+ * It prints numbers from 0 to n and multiplies each row by the numbers from 0 to n.
+ */
 	void print_times_table(int n)
 	{
 		int i, j, k;

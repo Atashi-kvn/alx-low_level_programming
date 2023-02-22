@@ -2,6 +2,7 @@
 	/**
 	 * main - print _putchar
 	 * is written by Atandi
+	 * Description: This function prints "_putchar"
 	 * Return: 0
 	 */
 
