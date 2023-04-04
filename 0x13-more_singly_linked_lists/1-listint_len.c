@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "lists.h"
 
 /**
@@ -12,9 +13,9 @@ size_t listint_len(const listint_t *h)
 
     while (h)
     {
-        num++;   // increment num for each node
-        h = h->next;   // move to the next node
+        num++;   /* increment num for each node*/
+        h = h->next;   /* move to the next node*/
     }
 
-    return (num);   // return the number of nodes in the list
+    return (num);   /* return the number of nodes in the list*/
 }
